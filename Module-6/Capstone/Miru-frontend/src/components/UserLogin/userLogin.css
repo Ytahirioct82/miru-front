@@ -1,0 +1,47 @@
+.UserLogin {
+  margin: auto;
+  text-align: center;
+}
+
+.UserForm {
+  width: 34%;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 33%;
+}
+
+.UserLogin h3 {
+  margin-top: 5%;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.UserLogin form {
+  width: 485px;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  font-size: large;
+}
+
+.UserLogin label {
+  height: fit-content;
+  text-align: left;
+  margin: 35px 0px -25px 0px;
+}
+
+.UserLogin button {
+  background-color: rgb(147, 182, 140);
+  color: aliceblue;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: solid 1px white;
+}
+
+.UserLogin h4 {
+  margin-top: 3%;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(147, 182, 140);
+}

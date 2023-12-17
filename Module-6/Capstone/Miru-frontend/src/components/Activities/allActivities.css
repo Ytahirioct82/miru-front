@@ -1,0 +1,94 @@
+.cat-search {
+  overflow: hidden;
+  top: 115px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.body {
+  margin: auto;
+  padding: auto;
+}
+
+.AllPosts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: fit-content;
+  margin: auto;
+  margin-top: 5%;
+  overflow: auto;
+  min-height: 20rem;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.AllPosts img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 5px;
+  width: 300px;
+  height: 150px;
+  margin: auto;
+}
+
+.AllPosts h2,
+.AllPosts p {
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 13px;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.AllPosts h2 {
+  font-weight: 600;
+  padding: 0;
+  font-size: medium;
+}
+
+:link {
+  text-decoration: none;
+}
+
+/* Category and search */
+
+.cat {
+  padding-top: 1.7rem;
+  padding-left: 9rem;
+}
+
+.search {
+  padding-top: 1.5rem;
+  padding-left: 1.7rem;
+}
+
+.fav button {
+  border: solid 1px red;
+  width: 27px;
+  height: 27px;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px;
+  color: red;
+  background-color: white;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.notFav button {
+  border: solid 1px black;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  border-radius: 50px;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

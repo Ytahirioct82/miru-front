@@ -1,0 +1,8 @@
+footer {
+  position: relative;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  background: grey;
+  color: white;
+  margin-top: 22rem;
+}

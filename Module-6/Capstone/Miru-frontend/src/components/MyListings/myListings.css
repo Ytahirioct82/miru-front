@@ -1,0 +1,56 @@
+.userListing {
+  width: fit-content;
+  margin: auto;
+}
+
+.userListing img {
+  margin: 0px;
+  border-radius: 5px;
+  height: 130px;
+}
+
+.userContainer h3 {
+  margin: auto;
+  width: 600px;
+  border-radius: 100px;
+  text-align: center;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  background-color: rgb(147, 182, 140);
+  margin-top: 200px;
+  font-size: xx-large;
+}
+
+.userListing button {
+  border-radius: 100px;
+  text-align: center;
+  font-size: x-large;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  background-color: black;
+  color: white;
+  font-size: small;
+}
+
+.userContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: -60px;
+}
+
+.userContainer h2,
+.userContainer p {
+  color: black;
+  font-size: medium;
+  margin-bottom: -10px;
+}
+
+.message {
+  margin-left: 290px;
+  width: 100%;
+}
+
+.price {
+  color: rgb(255, 71, 44);
+}

@@ -1,0 +1,40 @@
+.UserRegistration {
+  margin: auto;
+  text-align: center;
+}
+
+.RegistrationForm {
+  width: 34%;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 33%;
+}
+
+.UserRegistration h3 {
+  margin-top: 5%;
+  font-style: oblique;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.RegistrationForm form {
+  width: 485px;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  font-size: large;
+}
+
+.RegistrationForm label {
+  height: fit-content;
+  text-align: left;
+  margin: 25px 0px -20px 0px;
+}
+
+.RegistrationForm button {
+  background-color: rgb(147, 182, 140);
+  color: aliceblue;
+  margin-top: 40px;
+  border-radius: 5px;
+  border: solid 1px white;
+}

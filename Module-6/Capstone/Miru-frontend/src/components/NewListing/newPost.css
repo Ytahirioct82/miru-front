@@ -1,0 +1,19 @@
+div.post {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 12rem;
+  /* overflow: auto; */
+  /* background-image: url(https://mdbootstrap.com/img/Photos/Others/sidenav2.jpg); */
+}
+
+.post form {
+  border: 1px solid grey;
+  width: 75vh;
+  padding: 35px;
+  background-color: rgba(105, 168, 120, 0.386);
+  border-radius: 15px;
+}
+
+h2 {
+  padding: 0.5rem;
+}

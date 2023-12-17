@@ -1,0 +1,57 @@
+.DetailPost .post {
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.DetailPost div p {
+  margin: auto;
+  text-align: center;
+  width: 21%;
+  margin-top: 2%;
+}
+
+.DetailPost .post-picture {
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 2%;
+  border: solid 1px red;
+}
+
+.image {
+  border: solid 1px black;
+  width: 400px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.deleteFav button {
+  color: red;
+  font-size: small;
+}
+
+.address {
+  /* border: solid 1px red; */
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.address a {
+  color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.cat-heading {
+  width: fit-content;
+}
+
+.dropdown-label {
+  margin-bottom: 5px;
+  margin-top: 25px;
+  font-weight: 200;
+  font-size: small;
+}

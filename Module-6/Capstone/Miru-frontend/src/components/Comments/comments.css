@@ -1,0 +1,60 @@
+.modify {
+  margin-top: 60px;
+}
+
+.modify h3 {
+  border: dotted 1px black;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  font-weight: 200;
+  border-radius: 10px;
+  padding: 0px 5px;
+  background-color: rgb(147, 182, 140);
+  color: white;
+}
+
+.modify .CommentSection {
+  width: 30%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.Comment {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+.Comment div p {
+  width: 100%;
+  height: fit-content;
+  padding-top: 0px;
+  text-align: left;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+
+.Comment h6 {
+  width: fit-content;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.comment-buttons {
+  padding-top: 0px;
+  height: 70px;
+}
+
+.comment-buttons p {
+  width: 600px;
+  padding: 20px;
+}
+
+.modify .CommentSection button {
+  background-color: white;
+  border: solid 1px gray;
+  border-radius: 10px;
+}
